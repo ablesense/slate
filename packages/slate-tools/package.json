@@ -1,13 +1,10 @@
 {
-  "name": "@shopify/slate-tools",
-  "version": "1.0.0-beta.19",
+  "name": "ablesense-slate-tools",
+  "version": "1.0.2",
   "description": "A modern development toolkit for Shopify themes",
-  "repository": "https://github.com/Shopify/slate/tree/1.x/packages/slate-tools",
+  "repository": "https://github.com/ablesense/slate/tree/master/packages/slate-tools",
   "license": "MIT",
   "author": "Shopify",
-  "bugs": {
-    "url": "https://github.com/Shopify/slate/issues"
-  },
   "bin": {
     "slate-tools": "./cli/index.js"
   },
@@ -20,7 +17,7 @@
     "@shopify/slate-env": "1.0.0-beta.16",
     "@shopify/slate-liquid-asset-loader": "1.0.0-beta.11",
     "@shopify/slate-sections-plugin": "1.0.0-beta.19",
-    "@shopify/slate-sync": "1.0.0-beta.16",
+    "ablesense-slate-sync": "1.0.0",
     "@shopify/slate-tag-webpack-plugin": "1.0.0-beta.14",
     "@shopify/slate-translations": "1.0.0-beta.19",
     "@shopify/theme-lint": "^2.0.0",
@@ -89,6 +86,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "@shopify:registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   }
 }
